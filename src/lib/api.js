@@ -1,6 +1,6 @@
 // --- EXISTING FUNCTION ---
 export async function getFees(univId) {
-  const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:4000";
+  const API_BASE = import.meta.env.VITE_API_BASE || window.location.origin;
   const url = `${API_BASE}/api/universities/${univId}/fees`;
 
   console.log("👉 Fetching fees from:", url);
