@@ -1,16 +1,21 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎓 University Landing Pages with Lead Capture & APIs
 
-Currently, two official plugins are available:
+This project delivers a fully responsive frontend system featuring two single-page landing pages for private universities, a lead-generation workflow integrated with Pipedream, and a set of basic APIs returning simple and nested JSON responses. It is designed to showcase practical skills in building real-world landing pages, handling form submissions, and deploying production-ready web applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔹 Landing Pages (LP-1 & LP-2)
 
-## React Compiler
+Each landing page highlights essential university information, including an overview, available courses, fee details, placement insights, and campus facilities. The UI focuses on clarity, engagement, and easy navigation, supported by strong CTAs like Check Course-wise Fees, Download Brochure, and Apply Now. Both pages are built with mobile-first responsiveness to ensure smooth performance across devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔹 Lead Form Integration
 
-## Expanding the ESLint configuration
+A dynamic lead form collects user inputs: Full Name, Email, Phone Number (10-digit India), State, Course Interested, Intake Year, and a mandatory consent checkbox. On submission, the form sends data to a connected Pipedream workflow endpoint using a fetch-based POST request. A success or error message is displayed instantly without page reload, enhancing the user experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔹 APIs
+
+The project includes lightweight APIs that return structured JSON data for university details, course lists, and fee breakdowns. These endpoints demonstrate backend understanding and can be consumed by any frontend.
+
+🔹 Deployment
+
+Both landing pages are deployed on a free hosting service with SSL enabled, ensuring secure access and production-ready behavior.
+
